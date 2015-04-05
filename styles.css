@@ -18,12 +18,17 @@ body {
     padding: 0;
 }
 
+.links li {
+    padding:0;
+    margin:0;
+}
 
 .links li a {
     color: transparent;
     font-size: 0;
     opacity: 0.5;
-    
+    margin:0;
+    display:block;
 }
 .links li a:hover {
     opacity:1;
@@ -36,7 +41,8 @@ body {
     line-height: 16vh;
     text-align: center;
     opacity: inherit;
-    
+    margin:0;
+    padding: 0;
     
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition:  all 0.5s ease-in-out;
