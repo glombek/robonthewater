@@ -26,7 +26,7 @@ body {
 .links li a {
     color: transparent;
     font-size: 0;
-    opacity: 0.5;
+    opacity: 0.75;
     margin:0;
     display:block;
 }
