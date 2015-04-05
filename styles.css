@@ -37,8 +37,11 @@ body {
 .links li a i {
     display:block;
     color: black;
+    font-size: 20px;
     font-size: 10vh;
+    width: 32px;
     width: 16vh;
+    line-height: 32px;
     line-height: 16vh;
     text-align: center;
     opacity: inherit;
@@ -57,7 +60,9 @@ article {
     bottom:0;
     left:0;
     top:0;
+    width: 70%;
     width:70vmin;
+    padding: 1em;
     padding: 1rem;
     
     text-align: center;
@@ -77,6 +82,7 @@ h1 {
     margin: 0.5em 0;
     font-family: 'Londrina Sketch', cursive;
     font-weight:normal;
+    font-size: 40px;
     font-size: 20vmin;
     text-transform: uppercase;
     
